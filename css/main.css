@@ -1,0 +1,34 @@
+.mheader{
+    color: white;
+
+}
+
+.mheader:hover{
+    color: rgba(255, 134, 4, 0.721);
+}
+
+.logo{
+    font-family: 'bison-bold', sans-serif;
+    color: rgba(255, 134, 4, 0.721);
+    padding: 10px;
+    font-size: 80px;
+
+}
+
+.nav-bar-content{
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    color: white;
+}
+
+.body{
+    background-color: black;
+}
+
+.mcarrousel{
+    text-align: center;
+    margin: auto;
+    height: 88%;
+}
