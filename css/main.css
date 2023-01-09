@@ -1,15 +1,19 @@
 .mheader {
-    color: white !important;
+    color: black !important;
 }
 
 
 .mheader:hover {
-    color: rgba(255, 134, 4, 0.947) !important;
+    color: rgba(166,68,153) !important;
+}
+
+.header{
+    background-color: rgba(254, 218, 0, 0.947) !important;
 }
 
 main {
     text-align: center;
-    color: rgba(255, 134, 4, 0.947);
+    color: rgba(254, 218, 0, 0.947);
 }
 
 footer {
@@ -32,22 +36,26 @@ footer {
     -webkit-box-shadow: 0px 0px 25px -6px #81b71a;
     box-shadow: 0px 0px 25px -6px #81b71a;
 }
+
 .text-color-theme-orange {
-    color: rgba(255, 134, 4, 0.947);
+    color: rgba(254, 218, 0, 0.947);
     font-weight: bold;
 }
 
 .text-color-theme-orange-padrao {
     font-family: 'bison-bold', sans-serif;
-    color: rgba(255, 134, 4, 0.947);
+    color: rgba(254, 218, 0, 0.947);
     font-weight: bold;
     text-shadow: -2px 2px 0px #3d3d3d;
 }
 
 .logo {
-    font-family: 'bison-bold', sans-serif;
-    color: rgba(255, 134, 4, 0.947);
+    font-family: 'Jefith Personal Use', sans-serif;
+    font-family: 'Jefith', sans-serif;
+    font-size: 330%;
+    color: rgba(0, 0, 0, 0.947);
     margin-right: 30px;
+    margin-left: 20px;
 }
 
 .text-pad-ligth {
@@ -58,18 +66,18 @@ footer {
 .text-title-pad-light {
     font-family: 'bison-bold', sans-serif;
     color: rgb(0, 0, 0);
-    text-shadow: -2px 2px 0px rgba(255, 134, 4, 0.947);
+    text-shadow: -2px 2px 0px rgba(254, 218, 0, 0.947);
     font-weight: bold;
 }
 
 .text-color-theme-green {
-    color: rgba(151, 219, 0);
+    color: rgba(166,68,153);
     font-weight: bold;
 }
 
 .conf-unms {
     font-family: 'bison-bold', sans-serif;
-    color: rgba(151, 219, 0);
+    color: rgba(166,68,153);
     text-shadow: -2px 2px 0px #000000;
     font-weight: bold;
 }
@@ -100,7 +108,7 @@ footer {
     size: 90%;
 }
 
-.carouselimg{
+.carouselimg {
     width: 100%;
     max-height: 85%;
     height: auto;
