@@ -4307,7 +4307,6 @@ fieldset:disabled .btn {
     --bs-navbar-toggler-padding-x: 0.75rem;
     --bs-navbar-toggler-font-size: 1.25rem;
     --bs-navbar-toggler-icon-bg: url(https://uploaddeimagens.com.br/images/004/288/973/thumb/pngwing.com.png?1673227406);
-    --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0.1);
     --bs-navbar-toggler-border-radius: 0.375rem;
     --bs-navbar-toggler-focus-width: 0.25rem;
     --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
@@ -4390,13 +4389,13 @@ fieldset:disabled .btn {
 
 .navbar-toggler {
     padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
-    font-size: var(--bs-navbar-toggler-font-size);
+
     line-height: 1;
     color: var(--bs-navbar-color);
     background-color: transparent;
     border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
     border-radius: var(--bs-navbar-toggler-border-radius);
-    transition: var(--bs-navbar-toggler-transition)
+    transition: var(--bs-navbar-toggler-transition);
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -4412,7 +4411,6 @@ fieldset:disabled .btn {
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;
-    box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width)
 }
 
 .navbar-toggler-icon {
@@ -4423,7 +4421,7 @@ fieldset:disabled .btn {
     background-image: var(--bs-navbar-toggler-icon-bg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 70%;
 }
 
 .navbar-nav-scroll {
@@ -4778,7 +4776,7 @@ fieldset:disabled .btn {
     --bs-navbar-active-color: #fff;
     --bs-navbar-brand-color: #fff;
     --bs-navbar-brand-hover-color: #fff;
-    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+    --bs-navbar-toggler-border-color: rgba(201, 195, 31, 0.1);
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
 

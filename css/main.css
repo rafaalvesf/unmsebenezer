@@ -4,10 +4,10 @@
 
 
 .mheader:hover {
-    color: rgba(166,68,153) !important;
+    color: rgba(166, 68, 153) !important;
 }
 
-.header{
+.header {
     background-color: rgba(254, 218, 0, 0.947) !important;
 }
 
@@ -48,14 +48,33 @@ footer {
     font-weight: bold;
     text-shadow: -2px 2px 0px #3d3d3d;
 }
+.dLogo{
+    display: table-cell;
+    vertical-align: middle;
+    margin-right: 30px;
+    margin-left: 20px;
+    max-height: 80px;
+}
 
 .logo {
     font-family: 'Jefith Personal Use', sans-serif;
     font-family: 'Jefith', sans-serif;
     font-size: 300%;
     color: rgba(0, 0, 0, 0.947);
-    margin-right: 30px;
-    margin-left: 20px;
+
+}
+
+.logo-click {
+    text-decoration: none;
+    font-size: 76%;
+    color: rgba(0, 0, 0, 0.947);
+    display: table-cell;
+    vertical-align: middle
+}
+
+.logo-click:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.947);
 }
 
 .text-pad-ligth {
@@ -71,13 +90,13 @@ footer {
 }
 
 .text-color-theme-green {
-    color: rgba(166,68,153);
+    color: rgba(166, 68, 153);
     font-weight: bold;
 }
 
 .conf-unms {
     font-family: 'bison-bold', sans-serif;
-    color: rgba(166,68,153);
+    color: rgba(166, 68, 153);
     text-shadow: -2px 2px 0px #000000;
     font-weight: bold;
 }
@@ -110,7 +129,7 @@ footer {
 
 .carouselimg {
     width: 100%;
-    max-height: 85%;
+    max-height: 89%;
     height: auto;
     object-fit: fill;
 }
